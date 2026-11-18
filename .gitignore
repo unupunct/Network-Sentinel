@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+.pytest_cache/
+.env
+artifacts/
+release/*.exe

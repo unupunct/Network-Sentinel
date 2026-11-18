@@ -1,0 +1,13 @@
+CHANGELOG
+
+1.0.0
+  - First public release.
+  - Live network monitoring: real-time throughput graphs, interface selection, measured interface throughput and packet statistics.
+  - Automatic device discovery (ARP sweeps, mDNS, DHCP passive observation) and device intelligence (MAC OUI lookup, reverse-DNS, OS/device type classification).
+  - Website and domain activity: DNS query monitoring, categorisation, TLS SNI tracking.
+  - Application connection monitoring: per-process socket attribution on Windows (GetExtendedTcpTable) and Linux (/proc).
+  - Bandwidth statistics: measured interface throughput, per-application rates, per-device traffic attribution.
+  - Security detection: behavioural analysis (port scan bursts, connection failure storms, unexpected listeners, new untrusted devices) and threat-intelligence matching (bundled seed list + custom feed import).
+  - Activity timelines, alerts and desktop notifications, self-contained PDF/HTML/JSON reports with automated credential redaction.
+  - Optional companion agent for remote computers.
+  - Single-file self-contained exe (PyInstaller) and Inno Setup installer. Windows 10/11 x64.
